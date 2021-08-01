@@ -17,6 +17,9 @@ body {
     margin: 3.125rem auto;
     display: flex;
     flex-direction: row-reverse;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;
+
 }
 
 .text-content {
@@ -81,19 +84,18 @@ input:focus {
 
 
 /* Media query for mobile responsiveness */
-@media(max-width: 650px) {
+@media(min-width:20rem) and (max-width: 40rem) {
 
 
     body {
         display: block;
-        margin: 1.875rem auto;
+        margin: 1rem auto;
     }
 
     
     .brand-logo-mobile {
         display: block;
-        margin-bottom: 2.5rem;
-        margin-left: 2.5rem;
+        margin: 2.5rem;
     }
 
     .brand-logo-desktop {
@@ -114,25 +116,28 @@ input:focus {
     }
 
     p {
-        /* font-size: 1.2rem; */
+        font-size: 1rem;
+        line-height: 1.2rem;
         text-align: center;
-        line-height: 1.4rem;
     }
 
-
     .text-content {
-        margin-top: -6.25rem;
+        /* negative top margin to create distance between the hero image and
+        the "coming soon" message */
+        margin: -4rem 0 4rem 0;
+        padding: 0 0.625rem;
         background-image: none;
     }
 
     input {
         width: 17rem;
+        margin-left: 3.75rem;
 
     }
 
     .btn {
         bottom: 30px;
-        left: 200px;
+        left: 260px;
     }
 
 }
