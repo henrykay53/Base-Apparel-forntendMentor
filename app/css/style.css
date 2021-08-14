@@ -79,7 +79,6 @@ input:focus {
 
     body {
         display: block;
-        /* margin: 1rem auto; */
     }
 
     
@@ -100,7 +99,6 @@ input:focus {
 
     .hero-mobile {
         display: block;
-
         /* width set to 100% to make image go from end to end and respond to every resolution */
         width: 100%;
     }
@@ -116,8 +114,7 @@ input:focus {
     }
 
     .text-content {
-        /* negative top margin to create distance between the hero image and
-        the "coming soon" message */
+        /* negative top margin to create distance between the hero image and the "coming soon" message */
         margin-top: -4rem;
         margin: -4rem 1.5rem 0 1.5rem;
         background-image: none;
@@ -176,7 +173,6 @@ input:focus {
     .text-content {
         text-align: center;
         margin: -4rem 2rem 6rem 2rem;
-    
     }
 
     forms {
@@ -202,8 +198,6 @@ input:focus {
         position: relative;
         right: 6rem;
         bottom: -1rem;
-        /* margin-top: 2rem; */
-        /* margin-right: 8rem; */
     }
 
     .btn {
